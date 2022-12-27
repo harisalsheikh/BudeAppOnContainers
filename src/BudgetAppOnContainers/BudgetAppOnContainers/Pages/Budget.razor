@@ -1,0 +1,27 @@
+﻿@page "/budgets"
+
+
+<section class="budget-entry">
+    <h2>Budget Calculation Page</h2>
+
+    <p>You can set your monthly budget goals</p>
+
+    <EditForm Model="@budgetGoals">
+        <div class="row mb-3">
+            <label for="Month" class="col-form-label col-md-3">Enter Duration In Months: </label>
+            <div class="col-md-8">
+                <InputNumber id="Month" class="form-control col-md-8" @bind-Value="@budgetGoals.Month" placeholder="Enter Months"></InputNumber>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="TotalSaving" class="col-form-label col-md-3">Enter Duration In Months: </label>
+            <div class="col-md-8">
+                <InputNumber id="TotalSaving" class="form-control col-md-8" @bind-Value="@budgetGoals.TotalSaving" placeholder="Enter Saving Amount"></InputNumber>
+            </div>
+        </div>
+        <button class="btn btn-primary" @onclick="CalculateAmountSavings">Calculate Total Savings Amount</button>
+
+        <p role="status"> Total Savings Amount To save in @budgetGoals.Month months is $@savings</p>
+    </EditForm>
+</section>
+
