@@ -11,33 +11,33 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = BudgetAppOnContainers
 build_property.RootNamespace = BudgetAppOnContainers
-build_property.ProjectDir = C:\Users\haris\BudeAppOnContainers\src\BudgetAppOnContainers\BudgetAppOnContainers\
+build_property.ProjectDir = c:\Users\haris\BudeAppOnContainers\src\BudgetAppOnContainers\BudgetAppOnContainers\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\haris\BudeAppOnContainers\src\BudgetAppOnContainers\BudgetAppOnContainers
+build_property.MSBuildProjectDirectory = c:\Users\haris\BudeAppOnContainers\src\BudgetAppOnContainers\BudgetAppOnContainers
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/App.razor]
+[c:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/Pages/Budget.razor]
+[c:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/Pages/Budget.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVkZ2V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/Pages/Index.razor]
+[c:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/_Imports.razor]
+[c:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/Shared/MainLayout.razor]
+[c:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-avxb2cr9vs
 
-[C:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/Shared/NavMenu.razor]
+[c:/Users/haris/BudeAppOnContainers/src/BudgetAppOnContainers/BudgetAppOnContainers/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-webilg9j9n
