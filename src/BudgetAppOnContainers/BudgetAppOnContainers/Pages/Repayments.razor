@@ -1,0 +1,33 @@
+﻿@page "/repayments"
+
+<section class="loan-repayment">
+    <h2>Mortgage Repayment Calculations</h2>
+
+    <p>Calculate your monthly loan repayments.</p>
+
+    <EditForm Model="@Repayment">
+        <div class="row mb-3">
+            <label for="loanterm" class="col-form-label col-md-3">Enter Loan Term: </label>
+            <div class="col-md-8">
+                <InputNumber id="loanterm" class="form-control col-md-8" @bind-Value="@Repayment.LoanTerm" placeholder="Enter total years of loan"></InputNumber>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="interestrate" class="col-form-label col-md-3">Enter Interest Rate: </label>
+            <div class="col-md-8">
+                <InputNumber id="loanterm" class="form-control col-md-8" @bind-Value="@Repayment.InterestRate" placeholder="Enter interest rate "></InputNumber>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="loanamount" class="col-form-label col-md-3">Enter Loan Amount: </label>
+            <div class="col-md-8">
+                <InputNumber id="loanterm" class="form-control col-md-8" @bind-Value="@Repayment.LoanAmount" placeholder="Enter total Loan Amount"></InputNumber>
+            </div>
+        </div>
+
+        <button class="btn btn-primary" @onclick="CalculateMonthlyRepayments">Calculate Monthly Repayments</button>
+        <br />
+        <p class="fw-bold">Total Monthly Repayments Are: $@totalRepayments</p>
+    </EditForm>
+
+</section>

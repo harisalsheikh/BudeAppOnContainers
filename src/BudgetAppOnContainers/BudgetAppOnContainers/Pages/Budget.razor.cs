@@ -10,7 +10,8 @@ namespace BudgetAppOnContainers.Pages
 
         private void CalculateAmountSavings()
         {
-            savings = budgetGoals.TotalSaving / budgetGoals.Month;
+            savings = Math.Round(budgetGoals.TotalSaving / budgetGoals.Month,2);
+
         }
 
     }
