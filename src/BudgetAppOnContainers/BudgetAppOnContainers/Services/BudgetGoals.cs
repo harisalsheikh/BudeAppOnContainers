@@ -4,6 +4,6 @@
     {
         public int Month { get; set; }
         public int Day => DateTime.DaysInMonth(DateTime.Now.Year, Month);
-        public int TotalSaving { get; set; }
+        public decimal TotalSaving { get; set; }
     }
 }

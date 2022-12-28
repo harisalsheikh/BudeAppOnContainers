@@ -6,7 +6,7 @@ namespace BudgetAppOnContainers.Pages
     {
         public BudgetGoals budgetGoals { get; set; } = new BudgetGoals();
 
-        private int savings = 0;
+        private decimal savings = 0;
 
         private void CalculateAmountSavings()
         {
